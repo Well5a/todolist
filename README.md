@@ -1,5 +1,7 @@
 # todolist
-Example project for Spring Boot and Spring Web MVC
+Example project for Spring Boot and Spring Web MVC.
+
+Simple todolist application with a PostgreSQL database.
 
 ## Build the app
 
@@ -18,7 +20,7 @@ Example project for Spring Boot and Spring Web MVC
 
 Run `docker-compose up` in root directory to start the app.
 
-This will automatically pull the images from Dockerhub, you can find the todolist app [here](https://hub.docker.com/r/well5a/todolist).
+This will automatically pull the todolist and postgres images from Dockerhub, you can find the todolist app [here](https://hub.docker.com/r/well5a/todolist).
 You can also get the image...
 
 * locally: Build the app, then the image with `docker build -t todolist .` in project root directory
